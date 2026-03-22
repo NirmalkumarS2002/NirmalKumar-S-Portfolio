@@ -1,5 +1,12 @@
 import React from 'react'
 import "./Services.css"
+import img4 from "../assets/Computer.png";
+import img6 from "../assets/project3.png";
+import img5 from "../assets/project2.png";
+import img7 from "../assets/project4.png";
+import img8 from "../assets/project5.png";
+import img9 from "../assets/project6.png";
+
 
 export default function Services() {
   return (
@@ -9,37 +16,37 @@ export default function Services() {
 
           <div>
             <i class="fa-thin fa-computer"></i>
-            <img src="src\assets\Computer.png" alt=""/>
+            <img src={img4} alt=""/>
             <h2>Web Design</h2>
              <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
           </div>
 
           <div>
-            <img src="src\assets\Project2.png" alt=""/>
+            <img src={img5} alt=""/>
             <h2>Fully Responsive</h2>
             <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
           </div>
 
           <div>
-            <img src="src\assets\Project3.png" alt=""/>
+            <img src={img6} alt=""/>
             <h2>Development</h2>
             <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
           </div>
 
           <div>
-            <img src="src\assets\Project4.png" alt=""/>
+            <img src={img7} alt=""/>
             <h2>Creative Design</h2>
             <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
           </div>
 
           <div>
-            <img src="src\assets\Project5.png" alt=""/>
+            <img src={img8} alt=""/>
             <h2>Animaiton</h2>
             <p>Visual effects and graphic motion.Utilized as effective communication tools</p>
           </div>
 
           <div>
-            <img src="src\assets\Project6.png" alt=""/>
+            <img src={img9} alt=""/>
              <h2>Branding</h2>
              <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
           </div>

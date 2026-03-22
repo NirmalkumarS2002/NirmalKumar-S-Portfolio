@@ -1,4 +1,5 @@
 import React from 'react'
+import img3 from "../assets/abtimg1.jpeg";
 import "./About.css"
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
     <div  className='Mainabout'>
 
         <div className="abtimage">
-        <img  src="src\assets\abtimg1.jpeg" alt="" />
+        <img  src={img3} alt="" />
       </div>
 
       <div className='Abttext'>
