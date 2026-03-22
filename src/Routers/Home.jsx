@@ -2,6 +2,9 @@
 import React from 'react'
 import "./Home.css"
 import SocialIcons from './SocialIcons'
+import img1 from "../assets/sample2.png";
+
+
 
 export default function Home() {
   return (
@@ -27,7 +30,8 @@ export default function Home() {
       </div>
 
       <div className='picture'>
-                <img  src="src\assets\sample2.png" alt="" />
+                {/* <img  src="src\assets\sample2.png" alt="" /> */}
+                <img src={img1} alt="" />
       </div>
 
     </div>
