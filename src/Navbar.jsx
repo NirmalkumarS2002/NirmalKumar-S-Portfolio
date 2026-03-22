@@ -14,7 +14,6 @@ export default function Navbar() {
         <div className='NavMain'>
             <BrowserRouter>
        <div className="Navagation">
-
     <div className='pro'>
     <Profile/>
     </div>
