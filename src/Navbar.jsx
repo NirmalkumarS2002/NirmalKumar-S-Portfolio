@@ -6,7 +6,7 @@ import About from './Routers/About'
 import Resume from './Routers/Resume'
 import Services from './Routers/Services'
 import Contact from './Routers/Contact'
-import Profile from './Profile'
+import Profile from './Routers/Profile'
 
 export default function Navbar() {
   return (

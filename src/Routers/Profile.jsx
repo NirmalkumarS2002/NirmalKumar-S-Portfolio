@@ -9,8 +9,7 @@ export default function Profile() {
 
   return (
     <div className='profile'>
-    {/* <img className='pic' src="..\assets\samplee.jpeg" alt="" /> */}
-    <img src={nirmal} alt="kumar" />
+    <img src={nirmal}  alt="kumar"   className='pic'/>
     <h2>Nirmalkumar</h2>
     </div>
   )
